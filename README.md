@@ -20,25 +20,33 @@ Requirements:
 
 Following modules need to be installed for it to work properly:
 
+
 OpenCV
+
 Mediapipe
+
 Autopy
+
 OpenCV:
+
 OpenCV is a huge open-source library for computer vision, machine learning, and image processing. OpenCV supports a wide variety of programming languages like Python, C++, Java, etc. It can process images and videos to identify objects, faces, or even the handwriting of a human.
 
 It can be installed using "pip install opencv-python"
 
 Mediapipe:
+
 MediaPipe is a framework for building multimodal (eg. video, audio, any time series data), cross platform (i.e Android, iOS, web, edge devices) applied ML pipelines.
 
 It can be installed using "pip install mediapipe"
 
 Autopy:
+
 AutoPy is a simple, cross-platform GUI automation library for Python. It includes functions for controlling the keyboard and mouse, finding colors and bitmaps on-screen, and displaying alerts.
 
 It can be installed using "pip install autopy"
 
 Important Note:
+
 I faced alot of dependency issues throughout this project. Some of the issues and their solutions are as follows:
 
 autopy not installing: This is because autopy currently doesn't support Python versions above 3.8
@@ -46,11 +54,13 @@ webcam not opening: It was a bug in mediapipe and was fixed in latest python ver
 Hence, inorder for the project to run smoothly, you need to degrade the Python version to 3.8
 
 How to Degrade Python Version:
+
 Follow the following steps:
 
 Uninstall Python from add/remove programs
 Go to AppData and remove any python folder you see.
 Download Python 3.8 from this link : Python 3.8
 Install it.
+
 Open command promt and run "pip" inorder to confirm installation.
 Your Python version has been degraded :)
