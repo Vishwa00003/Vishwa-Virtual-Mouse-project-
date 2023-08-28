@@ -9,7 +9,11 @@ Project Description:
 
 
 
-In this project, I am using my hand as a virtual mouse than can do everything that a mouse does without even touching your system. I am using the webcam of my system to detect my hands. It will then create a bounding box around my hand and focus on two fingers: The fore finger and the middle finger. The fore finger will act as a cursor and moving it around, we will be moving the cursor around. Now, inorder to successfully click using hand tracking, it is detecting the distance between the fore finger and the middle finger. If they are joined together, then it will perform a click.
+In this project, I am using my hand as a virtual mouse than can do everything that a mouse does without even touching your system. 
+I am using the webcam of my system to detect my hands.
+It will then create a bounding box around my hand and focus on two fingers: The fore finger and the middle finger.
+The fore finger will act as a cursor and moving it around, we will be moving the cursor around. Now, inorder to successfully click using hand tracking, it is detecting the distance between the fore finger and the middle finger. 
+If they are joined together, then it will perform a click.
 
 Furthermore, a smoothness factor was added as the movement was really shaky.
 
@@ -29,7 +33,9 @@ Autopy
 
 OpenCV:
 
-OpenCV is a huge open-source library for computer vision, machine learning, and image processing. OpenCV supports a wide variety of programming languages like Python, C++, Java, etc. It can process images and videos to identify objects, faces, or even the handwriting of a human.
+OpenCV is a huge open-source library for computer vision, machine learning, and image processing.
+OpenCV supports a wide variety of programming languages like Python, C++, Java, etc.
+It can process images and videos to identify objects, faces, or even the handwriting of a human.
 
 It can be installed using "pip install opencv-python"
 
